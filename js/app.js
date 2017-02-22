@@ -22,7 +22,6 @@ angular.module('devmtnTravel', ['ui.router'])
             })
             .state('adventurers',{
                 url:'/adventurers',
-                parent:'/',
                 templateUrl: '../views/about-adventurers.html'
             })
             .state('contact',{

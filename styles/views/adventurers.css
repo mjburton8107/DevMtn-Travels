@@ -1,6 +1,7 @@
 .adventurers-main {
     padding-top: 25px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .adventurers-main h1 {
@@ -12,6 +13,9 @@
     display: flex;
     justify-content: space-around;
     margin-bottom: 25px;
+    padding: 10px;
+    align-items: center;
+    vertical-align: middle;
 }
 
 .adventure-card {
@@ -22,7 +26,7 @@
 
 }
 .adventure-card img {
-    width: 100%;
+    width: 80%;
     margin-bottom: 15px;
 }
 
@@ -33,6 +37,7 @@
 
 .adventure-card p {
     margin-bottom: 15px;
+    padding: 10px;
 }
 
 .adventure-card:nth-child(2) {
@@ -49,3 +54,6 @@
 
 }
 
+.about-image-adventurers {
+  height: 400px;
+}
