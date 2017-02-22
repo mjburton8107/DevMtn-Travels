@@ -1,5 +1,6 @@
 .contact-container {
     padding-top: 35px;
+    display: flex;
 }
 
 .contact-container  h1 {
@@ -11,4 +12,8 @@
     font-size: 2rem;
     margin-bottom: 25px;
     font-weight: 100;
+}
+
+.contact-text-container {
+  margin-left: 60px;
 }
